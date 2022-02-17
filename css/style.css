@@ -1,0 +1,22 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.calculation{
+    background-color: #F8F8F8;;
+}
+#food-box{
+    background-color: #e7e7e7;
+}
+#rent-box{
+    background-color: #e7e7e7;
+}
+#cloth-box{
+    background-color: #e7e7e7;
+}
+#calculate-btn{
+    background-color: #59A5FF;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
