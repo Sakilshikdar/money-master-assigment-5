@@ -2,6 +2,18 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#income-error{
+    visibility: hidden;
+}
+#negativenum-error{
+    visibility: hidden;
+}
+#more-error{
+    visibility: hidden;
+}
+#saveing-error{
+    visibility: hidden;
+}
 
 .calculation{
     background-color: #F8F8F8;;
@@ -16,8 +28,14 @@ body{
     background-color: #e7e7e7;
 }
 #calculate-btn{
-    background-color: #59A5FF;
+    background-color: #4497fd;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+}
+#save-btn{
+    background-color: #4c9af8;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
 }

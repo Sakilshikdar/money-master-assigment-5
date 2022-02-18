@@ -23,8 +23,8 @@
 </header>
 <!-- header end -->
   
-
-<section class="container mt-3">
+<!-- section start -->
+<section class="container mt-3 mb-4">
     <div class="row  m-auto ">
     <div class=" col-lg-6 mt-4 col-sm-12">
         <img class="img-fluid  h-100" src="images/pic.jpg" alt="">
@@ -32,12 +32,12 @@
 
     <div class="calculation  text-center p-3 col-lg-6 col-sm-12 mt-4">
     <div>
-        <p hidden id="negativenum-error">set valid num</p>
+        <p  id="negativenum-error">set valid num</p>
         <h4>Income</h4>
         <form>
             <label for="income-box">Income:</label>
             <input id="input-box" type="text">  
-            <p hidden id="income-error">set valid num</p>
+            <p id="income-error">set valid num</p>
         </form>
     </div>    
     <div>
@@ -63,11 +63,26 @@
     <h4>Total Expenses: <span id="total-expenses">00</span> </h4>
     <br>
     <h4>Balance: <span id="balance">00</span> </h4>
+    <form>
+        <label for="save-box">Save: </label>
+        <input id="save-box" type="text">
+        <span class="mx-3">%</span> 
+        <button class="fw-bold save-btn" id="save-btn"> Save</button> 
+    </form>
+    <br>
+    <p id="more-error">give valid number</p>
+    <h5 >
+        Saving Ammount: <span id="saving-amount">00</span>
+    </h5>
+    <h5>
+        Remaing Balance: <span id="remaining-balance" >00</span>
+    </h5>
+    <p id="saveing-error">its not possible</p>
 </div>
 </div>
  
 </section>
-
+<!-- section end -->
  
   <!-- bootstrap script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
